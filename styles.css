@@ -1,0 +1,34 @@
+/* CSS HEX */
+:root {
+    --royal-blue-web-color: #4970e3ff;
+    --azure-web: #e0f5f6ff;
+    --light-blue: #acd0cdff;
+    --verdigris: #00b5b9ff;
+    --midnight-green: #004557ff;
+    --rich-black: #00131fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.color-box {
+    width: 200px;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: var(--color-var);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
